@@ -1,6 +1,6 @@
 {
   "name": "@jinreiyu/applescript-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server that executes AppleScript giving you full control of your Mac",
   "main": "server.js",
   "type": "module",
