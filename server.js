@@ -41,7 +41,7 @@ class Logger {
   debug(message) { this.log('DEBUG', message); }
 }
 
-const logger = new Logger('applescript-mcp');
+const logger = new Logger('jinreiyu-applescript-mcp');
 
 async function executeAppleScript(code, timeout = 60) {
   // Create a temporary file for the AppleScript
@@ -78,13 +78,13 @@ async function executeAppleScript(code, timeout = 60) {
 }
 
 async function main() {
-  logger.info('Starting AppleScript MCP server');
+  logger.info('Starting Jinreiyu AppleScript MCP server');
   
   try {
     // Create the server
     const server = new McpServer({
-      name: 'AppleScript MCP',
-      version: '0.1.0'
+      name: 'Jinreiyu AppleScript MCP',
+      version: '1.0.0'
     });
     
     // Define the tool
@@ -129,4 +129,4 @@ async function main() {
 }
 
 // Start the server
-main(); 
+main();
